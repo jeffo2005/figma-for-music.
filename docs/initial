@@ -1,0 +1,47 @@
+Yes, exactly. What you’re describing is less “write me a song prompt” and more like a **song-generation control layer**.
+
+Almost like an MCP/workflow where you feed in:
+
+| Input                    | What It Controls                                              |
+| ------------------------ | ------------------------------------------------------------- |
+| Your rough idea          | theme, scripture/topic, emotional direction                   |
+| Humming/audio            | melody contour, phrasing, rhythm, hook shape                  |
+| Style references         | instrumentation, era, mix feel, vocal blend                   |
+| Structure choices        | chorus/verse order, intro/outro length                        |
+| Lyric constraints        | syllables, scriptural wording, lead/choir roles               |
+| Corrections after output | “less modern,” “more percussive piano,” “shorter lines,” etc. |
+
+The real goal is: **AI should follow your musical intent instead of averaging your prompt into generic output.**
+
+For your use case, I’d think of it in 4 layers:
+
+1. **Capture Layer**
+   You drop in thoughts, scripture, humming, voice memos, reference tracks, tempo ideas.
+
+2. **Translation Layer**
+   The system turns that into structured musical data:
+   melody shape, BPM, key center, section map, syllable limits, instrumentation roles.
+
+3. **Prompt/Generation Layer**
+   It builds separate outputs for Suno/Kie:
+   style block, lyric block, instrumental prompt, vocal prompt, revision prompt.
+
+4. **Correction Layer**
+   After each generation, you say what failed, and it updates the “song memory”:
+   “no repeated lines,” “lead only in intro/outro,” “choir only on chorus,” “piano must drive the pulse,” etc.
+
+So the thing you want is basically a **song director assistant**, not just a lyric writer.
+
+For now, the closest practical version would be a repeatable workflow like:
+
+```text
+1. Upload humming / describe melody
+2. Extract: tempo, contour, phrase length, mood
+3. Build style block under 900 chars
+4. Build lyrics under your syllable limit
+5. Generate in Kie/Suno
+6. Feed result notes back into revision prompt
+7. Lock successful choices as song memory
+```
+
+And your instinct is right: the more you can provide **musical anchors** like humming, rhythm, section length, and instrument relationships, the less the AI gets to “freestyle average gospel/worship.”
