@@ -1,0 +1,89 @@
+Phase 2 — Populate the Blueprint
+
+Core Question
+
+Where does every Blueprint field come from?
+
+Inputs
+What kinds of inputs should the system accept?
+Which inputs are first-class citizens and which are supporting?
+Can every Blueprint field be populated from multiple input types?
+What information is impossible to infer and therefore must be user-provided?
+Provenance
+What should every Blueprint value remember about its origin?
+Which fields require user confirmation?
+Which fields can safely remain inferred?
+When should user intent override extracted information?
+Relationships
+Which Blueprint fields depend on others?
+Which fields can populate other fields automatically?
+Which fields should never be auto-filled?
+Validation
+How do we know a Blueprint is "complete enough"?
+How do we represent uncertainty?
+What is the minimum information required for a usable song?
+
+
+
+Phase 3 — Edit the Blueprint
+
+Core Question
+
+How should the Blueprint behave when something changes?
+
+Dependencies
+What breaks when each field changes?
+Which fields should update automatically?
+Which should require confirmation?
+Revision
+How should conflicting edits be handled?
+How do we preserve history?
+Should edits be destructive or reversible?
+Consistency
+How do we detect contradictions?
+When should the system warn instead of changing?
+Intelligence
+What editing assistance is actually valuable?
+What should remain completely manual?
+
+Phase 4 — Generate from the Blueprint
+
+Core Question
+
+How does the Blueprint become useful outputs?
+
+Outputs
+What should the Blueprint generate?
+Which outputs are canonical?
+Which are optional?
+Translation
+How should one Blueprint become different prompt formats?
+What information is lost across generators?
+What information is generator-specific?
+Quality
+How do we measure output fidelity?
+How do we know generation succeeded?
+Revision
+Should generated artifacts ever modify the Blueprint?
+Or should generation always be one-way?
+
+
+Phase 5 — Visualize the Blueprint
+
+Core Question
+
+What is the simplest interface that lets people think in terms of the Blueprint?
+
+Mental Model
+What should users see first?
+What should feel like an object?
+What should feel like a relationship?
+Editing
+What actions should always be one click away?
+Which edits deserve dedicated workspaces?
+Navigation
+How do users move through a song?
+How do they move between abstraction levels?
+Scale
+How should large songs remain understandable?
+How should collaboration appear?
