@@ -1,0 +1,28 @@
+Done! I've saved it as a **working model**, not a finalized architecture.
+
+The remembered preference is:
+
+* For the **Song Blueprint project**, use this three-layer architecture as the current conceptual model unless our research leads us to improve it:
+
+  ```text
+  Song
+  ├── Message
+  │   ├── Lyrics
+  │   └── Intent
+  │
+  ├── Musical Content
+  │   ├── Melody
+  │   ├── Harmony
+  │   ├── Rhythm
+  │   └── Structure
+  │
+  └── Expression
+      ├── Voices
+      ├── Instruments
+      ├── Arrangement
+      ├── Performance
+      └── Production
+  ```
+* Treat it as **provisional**—a research hypothesis that we will continue refining as we progress through the project, rather than locking it in as the final design.
+
+I also think this fits well with our Week 1 goal of discovering **what a song is** before worrying about implementation. It gives us a conceptual scaffold while leaving room to move objects between layers—or even introduce entirely new layers—if future discussions justify it. 
