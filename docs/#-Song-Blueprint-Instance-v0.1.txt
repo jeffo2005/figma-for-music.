@@ -1,0 +1,194 @@
+# Song Blueprint Instance v0.1
+
+## Song
+
+**Working Title:** Why Do the Nations Rage?  
+**Status:** Phase 1 validation instance  
+**Source Material:** Psalm 2, Psalm 22, Isaiah 52:13–15, Hebrews 12:2, Psalm 34:19
+
+# 1. Message
+
+## Core Theme
+
+The Messiah suffers under rejection and affliction, yet remains obedient, is heard by God, is delivered, and is ultimately revealed in glory and kingship.
+
+## Lyrics
+
+### [Intro]
+
+**Lead — first person**
+
+Why do the nations rage?  
+Why do the peoples plot in vain?  
+They rise against the Lord  
+And against His Anointed.
+
+### [Verse 1 — Suffering]
+
+**Lead — first person**
+
+My God, I cry by day,  
+Yet You remain holy.  
+I am poured out like water;  
+My strength is dried within me.
+
+They divide what covers me.  
+They look and stare upon me.  
+Still I set my face before You;  
+I will not turn aside.
+
+### [Chorus — Endurance]
+
+**Lead**
+
+I endured the cross before me,  
+For the joy that waited beyond.  
+Though many are my afflictions,  
+The Lord delivers me from them all.
+
+**Choir — second person**
+
+You trusted in the Lord;  
+Let Him deliver You.  
+You remained faithful,  
+And He has not hidden His face.
+
+### [Verse 2 — Heard and Vindicated]
+
+**Lead — first person**
+
+He has not despised my suffering,  
+Nor turned away from my cry.  
+When I called, He heard me;  
+Before the congregation I will praise Him.
+
+Kings will rise and stand in silence;  
+Nations will behold what was concealed.  
+The stone rejected by men  
+Will reign as the Lord’s Anointed.
+
+### [Final Chorus — Glory]
+
+**Lead**
+
+I endured the cross before me,  
+For the joy that waited beyond.  
+The kingdoms belong to the Lord;  
+He rules over all the nations.
+
+**Choir — second person**
+
+You are the Son, the Anointed King.  
+The ends of the earth are Your possession.  
+All generations will remember,  
+And proclaim what the Lord has done.
+
+### [Outro]
+
+**Lead**
+
+It is finished.
+
+**Choir**
+
+He has done it.
+
+## Emotional Intent
+
+The movement is weight and affliction, steadfast endurance, assurance that God has heard, vindication, and majestic public glory. The song should never become sentimental or self-pitying.
+
+# 2. Musical Content
+
+## Melody
+
+The lead begins in a low, narrow range with restrained movement and repeated tones. The first chorus climbs but does not fully resolve. The second verse expands upward, and the final chorus reaches the highest register with broader intervals and firmer resolution.
+
+## Harmony
+
+A dark minor center avoids early full resolution. Verses sustain tension. Choruses introduce brighter lifts, and the final chorus resolves with a stronger major-color lift over the same underlying identity.
+
+## Rhythm
+
+A steady, weighty pulse above 100 BPM. Verses use deliberate phrasing; choruses become more unified. Intensity grows through added layers rather than a large tempo change.
+
+## Structure
+
+1. Intro
+2. Verse 1 — Suffering
+3. Chorus — Endurance
+4. Verse 2 — Heard and Vindicated
+5. Final Chorus — Glory
+6. Outro
+
+## Tempo
+
+Approximately **104–108 BPM**.
+
+## Genre / Musical Tradition
+
+Scripture-driven dramatic sacred song shaped by older live congregational and Messianic ensemble traditions rather than modern worship-pop.
+
+# 3. Expression
+
+## Vocal Roles
+
+### Lead
+- Male
+- Textured, mature tone
+- First person when embodying the Messiah
+- Restrained rather than theatrical
+
+### Choir
+- Second person
+- Functions as witness and congregation
+- Enters gradually
+- Strongest in the final chorus
+- May overlap the lead naturally
+
+## Instruments
+
+### Foundation
+- Percussive acoustic piano
+- Grounded bass
+- Low frame drum or restrained drum-set pulse
+
+### Texture
+- Sustained low strings or dark pad
+- Sparse plucked Middle Eastern string color
+- Low drone in suffering sections
+
+### Lift
+- Broader piano voicings
+- Stronger hand percussion
+- Additional strings
+- Choir-supported harmonic expansion
+
+### Final Glory
+- Full ensemble
+- Higher register strings or brass-like color
+- Stronger bass movement
+- Firm percussion accents used sparingly
+
+## Arrangement
+
+The opening is exposed and restrained. Each section adds one meaningful layer, moving from private affliction to public vindication. The outro reduces suddenly so the final words remain clear.
+
+## Realization
+
+Live-room character rather than polished studio perfection, with slight vocal roughness, natural breath, overlapping choir entrances, small timing differences, mild room bleed, and human dynamic variation.
+
+# Phase 1 Validation Notes
+
+This song fits the current Blueprint without requiring another top-level category.
+
+- **Message** contains meaning, lyrics, and emotional direction.
+- **Musical Content** contains musical identity and form.
+- **Expression** contains audible realization.
+
+## Remaining Questions for Later Phases
+
+- How melody should be stored
+- Whether harmony needs explicit chord data
+- How uploaded evidence populates fields
+- How edits affect dependent fields
+- How generators consume the Blueprint
